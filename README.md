@@ -17,7 +17,7 @@ IoT Relay with NodeMcu, Controllable by App, ChatBot, Google Assistant
   <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" />
 </p>
 
-### Hardware & Software Used
+### Hardware & Software 
 
 - NodeMcu ESP8266
 - NodeMcu Shield (optional)
