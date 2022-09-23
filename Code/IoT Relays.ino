@@ -13,9 +13,9 @@
 #define relay7 D7
 #define relay8 D8
 
-#define BLYNK_TEMPLATE_ID "TMPLSeYbwohI"
-#define BLYNK_DEVICE_NAME "Mcu"
-#define BLYNK_AUTH_TOKEN "VqR5Pyeqowm5spuFbnxVdxvy7hajKcIE"
+#define BLYNK_TEMPLATE_ID "Your Template Id"
+#define BLYNK_DEVICE_NAME "Your Device Name"
+#define BLYNK_AUTH_TOKEN "Your Token"
 
 
 char auth[] = BLYNK_AUTH_TOKEN;
