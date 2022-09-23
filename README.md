@@ -18,6 +18,12 @@ IoT Relay with NodeMcu, Controllable by App, ChatBot, Google Assistant
   <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" />
 </p>
 
+### Hardware Used
+
+- NodeMcu ESP8266
+- NodeMcu Shield (optional)
+- Relay 4/8ch
+
 ---------
 
 #### Edit Config Token Server Blynk
