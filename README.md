@@ -16,6 +16,7 @@ IoT Relay with NodeMcu, Controllable by App, ChatBot, Google Assistant
 - NodeMcu Shield (optional)
 - Relay 4/8ch
 - Blynk Cloud 
+- [`Arduino IDE`](https://arduino.cc)
 
 ---------
 
