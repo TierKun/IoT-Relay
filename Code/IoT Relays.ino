@@ -28,10 +28,10 @@ BLYNK_WRITE(V1) {
   // Check these values and turn the relay1 ON and OFF
   if (value1 == 1) {
     digitalWrite(relay1, LOW);
-     Serial.println("Relay 1 LOW");
+     Serial.println("Relay 1 hidup");
   } else {
     digitalWrite(relay1, HIGH);
-    Serial.println("relay 1 HIGH");
+    Serial.println("relay 1 mati");
   }
 }
 
@@ -41,10 +41,10 @@ BLYNK_WRITE(V2) {
   // Check these values and turn the relay2 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay2, LOW);
-    Serial.println("relay 2 LOW");
+    Serial.println("relay 2 hidup");
   } else {
     digitalWrite(relay2, HIGH);
-    Serial.println("relay 2 HIGH");
+    Serial.println("relay 2 mati");
   }
 }
 
@@ -54,10 +54,10 @@ BLYNK_WRITE(V3) {
   // Check these values and turn the relay2 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay3, LOW);
-    Serial.println("relay 3 LOW");
+    Serial.println("relay 3 hidup");
   } else {
     digitalWrite(relay3, HIGH);
-    Serial.println("relay 3 HIGH");
+    Serial.println("relay 3 mati");
   }
 }
 
@@ -67,10 +67,10 @@ BLYNK_WRITE(V4) {
   // Check these values and turn the relay2 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay4, LOW);
-    Serial.println("relay 4 LOW");
+    Serial.println("relay 4 hidup");
   } else {
     digitalWrite(relay4, HIGH);
-    Serial.println("relay 4 HIGH");
+    Serial.println("relay 4 mati");
   }
 }
 
@@ -79,11 +79,11 @@ BLYNK_WRITE(V5) {
   bool value2 = param.asInt();
   // Check these values and turn the relay2 ON and OFF
   if (value2 == 1) {
-    digitalWrite(relay5, HIGH);
-    Serial.println("relay 5 HIGH");
-  } else {
     digitalWrite(relay5, LOW);
-    Serial.println("relay 5 LOW");
+    Serial.println("relay 5 hidup");
+  } else {
+    digitalWrite(relay5, HIGH);
+    Serial.println("relay 5 mati");
   }
 }
 //Get the button values
@@ -91,11 +91,11 @@ BLYNK_WRITE(V6) {
   bool value2 = param.asInt();
   // Check these values and turn the relay2 ON and OFF
   if (value2 == 1) {
-    digitalWrite(relay6, HIGH);
-    Serial.println("relay 6 HIGH");
-  } else {
     digitalWrite(relay6, LOW);
-    Serial.println("relay 6 LOW");
+    Serial.println("relay 6 hidup");
+  } else {
+    digitalWrite(relay6, HIGH);
+    Serial.println("relay 6 mati");
   }
 }
 //Get the button values
@@ -103,11 +103,11 @@ BLYNK_WRITE(V7) {
   bool value2 = param.asInt();
   // Check these values and turn the relay2 ON and OFF
   if (value2 == 1) {
-    digitalWrite(relay7, HIGH);
-    Serial.println("relay 7 HIGH");
-  } else {
     digitalWrite(relay7, LOW);
-    Serial.println("relay 7 LOW");
+    Serial.println("relay 7 hidup");
+  } else {
+    digitalWrite(relay7, HIGH);
+    Serial.println("relay 7 mati");
   }
 }
 //Get the button values
@@ -115,11 +115,11 @@ BLYNK_WRITE(V8) {
   bool value2 = param.asInt();
   // Check these values and turn the relay2 ON and OFF
   if (value2 == 1) {
-    digitalWrite(relay8, HIGH);
-    Serial.println("relay 8 HIGH");
-  } else {
     digitalWrite(relay8, LOW);
-    Serial.println("relay 8 LOW");
+    Serial.println("relay 8 hidup");
+  } else {
+    digitalWrite(relay8, HIGH);
+    Serial.println("relay 8 mati");
   }
 }
 
@@ -140,10 +140,10 @@ void setup() {
   digitalWrite(relay2, HIGH);
   digitalWrite(relay3, HIGH);
   digitalWrite(relay4, HIGH);
-  digitalWrite(relay5, LOW);
-  digitalWrite(relay6, LOW);
-  digitalWrite(relay7, LOW);
-  digitalWrite(relay8, LOW);
+  digitalWrite(relay5, HIGH);
+  digitalWrite(relay6, HIGH);
+  digitalWrite(relay7, HIGH);
+  digitalWrite(relay8, HIGH);
 
 
   //Initialize the Blynk library
