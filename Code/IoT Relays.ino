@@ -51,7 +51,7 @@ BLYNK_WRITE(V2) {
 //Get the button values
 BLYNK_WRITE(V3) {
   bool value2 = param.asInt();
-  // Check these values and turn the relay2 ON and OFF
+  // Check these values and turn the relay3 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay3, LOW);
     Serial.println("relay 3 hidup");
@@ -64,7 +64,7 @@ BLYNK_WRITE(V3) {
 //Get the button values
 BLYNK_WRITE(V4) {
   bool value2 = param.asInt();
-  // Check these values and turn the relay2 ON and OFF
+  // Check these values and turn the relay4 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay4, LOW);
     Serial.println("relay 4 hidup");
@@ -77,7 +77,7 @@ BLYNK_WRITE(V4) {
 //Get the button values
 BLYNK_WRITE(V5) {
   bool value2 = param.asInt();
-  // Check these values and turn the relay2 ON and OFF
+  // Check these values and turn the relay5 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay5, LOW);
     Serial.println("relay 5 hidup");
@@ -89,7 +89,7 @@ BLYNK_WRITE(V5) {
 //Get the button values
 BLYNK_WRITE(V6) {
   bool value2 = param.asInt();
-  // Check these values and turn the relay2 ON and OFF
+  // Check these values and turn the relay6 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay6, LOW);
     Serial.println("relay 6 hidup");
@@ -101,7 +101,7 @@ BLYNK_WRITE(V6) {
 //Get the button values
 BLYNK_WRITE(V7) {
   bool value2 = param.asInt();
-  // Check these values and turn the relay2 ON and OFF
+  // Check these values and turn the relay7 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay7, LOW);
     Serial.println("relay 7 hidup");
@@ -113,7 +113,7 @@ BLYNK_WRITE(V7) {
 //Get the button values
 BLYNK_WRITE(V8) {
   bool value2 = param.asInt();
-  // Check these values and turn the relay2 ON and OFF
+  // Check these values and turn the relay8 ON and OFF
   if (value2 == 1) {
     digitalWrite(relay8, LOW);
     Serial.println("relay 8 hidup");
